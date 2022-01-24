@@ -1,6 +1,6 @@
 #ifndef LINKED_LIST_H_
 #define LINKED_LIST_H_
-
+#include<iostream>  
 typedef struct node
 {
     int data;
@@ -13,7 +13,7 @@ typedef struct list
 };
 node *create_node(int data);
 void create_list(list linked_list);
-void add_node(list&linked_list,node*node);
+void add_node(list&linked_list,node*pnode);
 void show_list(list linked_list);
 
 #endif
